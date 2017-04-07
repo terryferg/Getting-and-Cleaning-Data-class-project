@@ -31,7 +31,7 @@ The run_analysis.R file will:
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive variable names by removing unnecessary “()”.
 * From the above steps, creates a second, independent tidy data set with the average of each variable   for each activity and each subject.
-* Saves the new tidy datafile into a csv file named: "cellphone.accelerometer.tidy.data.csv".
+* Saves the new tidy datafile into a table file named: "cellphone.accelerometer.tidy.data.txt".
 
 
 

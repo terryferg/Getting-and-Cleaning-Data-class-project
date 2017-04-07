@@ -208,13 +208,13 @@ all.grouped.df <- ddply(all.reduced.variables.df, group.columns,
 
 setwd("~/Documents/R and Stat Notes/Getting, Cleanning Data/project/UCI HAR Dataset")
 getwd()
+## Below saves the new tidy data file for further analysis
+write.table(all.grouped.df, file= "cellphone.accelerometer.tidy.data.txt", row.name=FALSE)
 
-write.csv(all.grouped.df, file= "cellphone.accelerometer.tidy.data.csv")
-
-                                            
 ## Note: to read in this completed tidy dataset, set the working directory to location 
 ## of the file and do the following:
-cellphone.accelerometer.tidy.df <- read.csv(file = "cellphone.accelerometer.tidy.data.csv")
+cellphone.accelerometer.tidy.df <- read.table(file = "cellphone.accelerometer.tidy.data.txt", 
+                                              header = TRUE)
 
 
 
