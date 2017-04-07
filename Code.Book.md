@@ -25,7 +25,6 @@ title: "Code.Book.md"
 ##### Step 1: Merges the training and the test sets to create one data set: This step took the various files and merged them into one file.  The various files used: features.txt; activity_labels.txt, subject_train.txt, subject_test.txt, x_train.txt, y_train.txt, x_test.txt, and y_test.txt files.
 
 ##### Step 2: Extracts only the measurements on the mean and standard deviation for each measurement: The original datafile had many more measurments than the mean and standard deviations of the X, Y, and Z coordinates (such as min, max, irq, entropy...). This step eliminates these unwanted metrics.  The data in the final tidy dataset provided is the mean sensor reading per subject, per activity.
-
 #####Step 3: Uses descriptive activity names to name the activities in the data set:
 #####I not only created a variable with the activity codes, but a variable with descriptive activity labels. The activity codes used follow:
 #####  1 - WALKING
